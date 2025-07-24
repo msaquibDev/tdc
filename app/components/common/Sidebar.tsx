@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button';
 const menuItems = [
 	{ label: 'Application Form', path: '/dashboard/application-form' },
 	{ label: 'Note from Council', path: '/dashboard/note-from-council' },
-	{ label: 'My Profile', path: '/dashboard/profile' },
+	{ label: 'My Profile', path: '/dashboard/myprofile' },
 	{ label: 'My Certificate', path: '/dashboard/certificates' },
 	{ label: 'Renewal', path: '/dashboard/renewal' },
 	{ label: 'Good Standing Certificates', path: '/dashboard/gsc' },
@@ -18,13 +18,13 @@ const menuItems = [
 		label: 'Appointment',
 		isDropdown: true,
 		children: [
-			{ label: 'Registration', path: '/dashboard/appointment/registration' },
-			{ label: 'Renewal (Tatkal)', path: '/dashboard/appointment/renewal-tatkal' },
+			{ label: 'Registration', path: '/dashboard/appointments/registration' },
+			{ label: 'Renewal (Tatkal)', path: '/dashboard/appointments/renewal' },
 			{ label: 'Good Standing Certificates', path: '/dashboard/appointments/gsc' },
 			{ label: 'No Objection Certificate', path: '/dashboard/appointments/noc' },
 		],
 	},
-	{ label: 'Payments', path: '/dashboard/payments' },
+	{ label: 'Payments', path: '/dashboard/payment' },
 	{ label: 'Announcements', path: '/dashboard/announcements' },
 	{ label: 'Events', path: '/dashboard/events' },
 ];

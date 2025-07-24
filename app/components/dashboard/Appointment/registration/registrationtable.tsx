@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { NocRecord } from "@/app/types/appointments/noc";
+import { RegRecord } from "@/app/types/appointments/reg";
 import {
   Table,
   TableBody,
@@ -15,10 +15,10 @@ import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface Props {
-  data: NocRecord[];
+  data: RegRecord[];
 }
 
-export default function NocDataTable({ data }: Props) {
+export default function RegDataTable({ data }: Props) {
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
